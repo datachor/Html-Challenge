@@ -1,0 +1,142 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.my-body {
+  background-color: #ededed;
+}
+
+.navbar {
+  background: #ffffff;
+  padding: .3rem 3rem;
+  z-index: 1000;
+  border: 3px #4AAAA5;
+}
+.navbar .navbar-brand {
+  font-size: 2.4rem;
+  font-weight: 700;
+  background-size: 5px;
+  padding: 0px !important;
+  margin: 0 !important;
+}
+
+
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+  color: #777777;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a.active {
+  color: #4AAAA5;
+}
+
+#navbarSupportedContent > button {
+  background: #ffffff;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+}
+
+
+
+.container-4 {
+  margin: auto;
+  width: 100%;
+  border: 1px;
+  padding: 20px;
+}
+
+.my-container {
+  background-color: #ffffff;
+  margin-top: 130px;
+  /* padding: 5%;
+  max-width: 100%;
+  width: 80%; */
+}
+
+
+.my-container h1{
+  font-family: serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 3em;
+  text-align: left;
+  align-self:center;
+  color: #4AAAA5;
+}
+
+.my-container p{
+  font-family: serif;
+  font-size: 1.4em;
+  margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 991.98px) {
+
+  #navbarSupportedContent > ul{
+    width: 100%;
+    float: none !important;
+  }
+  .navbar{
+    background-color: #4AAAA5;
+  }
+  #navbarSupportedContent > ul{
+    background-color: #ffffff;
+    text-align: justify;
+    max-width: 991.98px;
+    margin: auto;
+    background-size: 100%;
+    padding: 0 !important;
+  }
+ 
+  .my-container {
+    margin-top: 70px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .my-body {
+    background-color: #ffffff;
+  }
+  
+  .outer-grid {
+    display: block;
+    padding: 0 4em;
+  }
+    
+}
+
+
+
+.outer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1 4em;
+}
+.inner-grid {
+  flex:1;
+  max-width: 50%;
+  padding: 1 4em;
+}
+.inner-grid img {
+  margin-top: 8px;
+  width: 100%;
+  padding: 10px;
+}
+@media screen and (max-width: 991.98px) {
+  .inner-grid {
+     flex: 50%;
+     max-width: 100%;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .inner-grid {
+     flex: 100%;
+     max-width: 100%;
+  }
+}
+
